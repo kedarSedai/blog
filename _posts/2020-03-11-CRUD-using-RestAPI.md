@@ -11,7 +11,7 @@ An **API** is the Application programming interface. Actually, it is the set of 
 
 So, let's create our **Simple CRUD APIs using NodeJs, MongoDB, and ExpressJs**
 
-Before diving into Node and Express and MongoDB we need to familar with the ES6 concept of javaScript as well as knowledege about JSON will be assests.
+Before diving into NodeJs, Express and MongoDB we need to familar with the ES6 concept of javaScript as well as knowledege about JSON will be assests.
 
 so let's start it.
 
