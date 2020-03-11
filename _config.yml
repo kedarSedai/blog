@@ -1,17 +1,17 @@
-title: Derrick Wells – Independent Product Designer
+title: Blog Post
 logo:  # you can add own logo.
 description: Passionate designer curating designs for new startups  and  founders  and crafts  beautiful user interfaces with love.
-baseurl: "/derrick" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 # Author Settings
 author:
   name: Kedar Sedai
-  image: '/assets/img/01.jpg'
-  job: Independent Product Designer
-  bio: Passionate designer curating designs for new startups  and  founders  and crafts  beautiful user interfaces with love.
-  email: forexample@website.com
+  image: '/assets/img/kedar.jpg'
+  job: Back-end Developer
+  bio: A motivated individual with in-depth knowledge of languages and development tools, seeking a position in a growth-oriented company where I can use my skills.
+  email: kedar.sedai05@gmail.com
 
 
 # Contact links
