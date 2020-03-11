@@ -35,7 +35,7 @@ where i stands for install. This add dependency to your _package.json file_ with
 
 Now, create index.js file the file name must be index.js because when while using npm init -y we are given the default configuration.
 
-![index](./assets/img/index.PNG);
+![index]({{ site.baseurl }}./assets/img/index.PNG)
 
 
 
