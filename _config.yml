@@ -1,17 +1,17 @@
-title: Derrick Wells – Independent Product Designer
+title: Kedar Sedai – Backend Developer
 logo:  # you can add own logo.
-description: Passionate designer curating designs for new startups  and  founders  and crafts  beautiful user interfaces with love.
-baseurl: "/derrick" # the subpath of your site, e.g. /blog
+description: A motivated individual with in-depth knowledge of languages and development tools, seeking a position in a growth-oriented company where I can use my skills.
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 # Author Settings
 author:
-  name: Derrick Wells
-  image: '/assets/img/01.jpg'
-  job: Independent Product Designer
-  bio: Passionate designer curating designs for new startups  and  founders  and crafts  beautiful user interfaces with love.
-  email: forexample@website.com
+  name: Kedar Sedai
+  image: '/assets/img/kedar.jpg'
+  job: Backend Developer
+  bio: A motivated individual with in-depth knowledge of languages and development tools, seeking a position in a growth-oriented company where I can use my skills.
+  email: kedar.sedai05@gmail.com
 
 
 # Contact links
