@@ -1,7 +1,7 @@
 title: Kedar Sedai – Backend Developer
 logo:  # you can add own logo.
 description: A motivated individual with in-depth knowledge of languages and development tools, seeking a position in a growth-oriented company where I can use my skills.
-baseurl: blog # the subpath of your site, e.g. /blog
+baseurl: "/derrick" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 
