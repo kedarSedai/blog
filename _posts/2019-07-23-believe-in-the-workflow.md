@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  Believe in the workflow
-date:   2019-07-24 15:01:35 +0300
 image:  '/assets/img/02.jpg'
 tags:   [switzerland, heels, chair, blog]
 ---
