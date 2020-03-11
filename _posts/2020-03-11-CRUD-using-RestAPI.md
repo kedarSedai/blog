@@ -21,7 +21,21 @@ First you need to have Node install on your system you can download from Node of
 
 Open your visual Studio Code and type command in your terminal
 {% highlight javascript %}
-npm init 
+npm init -y
 {% endhighlight %}
+
+Basically, npm init is used to set up a new or existing npm package. For a default configuration I am using -y. And creates a _package.json file_ which consists of dependencies which we will discuss later on.
+
+Now we will install our Express Framework and Mongoose, so type this command in your terminal
+{% highlight javascript %}
+npm i mongoose express 
+{% endhighlight %}
+
+where i stands for install. This add dependency to your _package.json file_ with version number. After installing you can see the **node_modules** appear in your project. Basically, a modules in Node.js is a a simple or complex functionality organized in single or multiple javascript files which can be reused throughout the Node.js application.
+
+Now, create index.js file the file name must be index.js because when while using npm init -y we are given the default configuration.
+
+![index](./assets/img/index.PNG);
+
 
 
