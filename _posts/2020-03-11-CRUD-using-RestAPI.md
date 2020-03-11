@@ -17,9 +17,5 @@ so let's start it.
 
 {% highlight javascript %}
 
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
