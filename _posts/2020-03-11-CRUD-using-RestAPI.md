@@ -33,9 +33,9 @@ npm i mongoose express
 
 where i stands for install. This add dependency to your _package.json file_ with version number. After installing you can see the **node_modules** appear in your project. Basically, a modules in Node.js is a a simple or complex functionality organized in single or multiple javascript files which can be reused throughout the Node.js application.
 
-Now, create index.js file the file name must be index.js because when while using npm init -y we are given the default configuration.
+Now, create index.js file the file name must be index.js because when while using npm init -y we are given the default configurations.
 
-![index]({{ site.baseurl }}./assets/img/index.PNG)
+![]({{site.baseurl}}/assets/img/index.PNG)
 
 
 
