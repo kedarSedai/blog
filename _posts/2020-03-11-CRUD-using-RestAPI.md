@@ -133,6 +133,7 @@ here, we are updating user's title with the userId.
 
 {% highlight javascript}
 remove(), updateOne() these all are the methods of mongoDB.
+{% endhighlight %}
 
 now inorder to get all data that is stored in database we just need to add GET route in our routes folder inside userRoutes.js file
 and it looks like this:
