@@ -76,11 +76,14 @@ mongoose
 now write _nodemon_ in your terminal and you might see MongoDB connected.
 
 Congraz 🙂 you just connected your application to MongoDB.
+
 Now, lets's create our _Schema_. Everything in a mongoose starts with a schema. Each schema maps with the mongoDB collection and defines the shape of the documents within that collection.
 
 so let's create our model folder and inside model create _User.js file_ which will be our schema.
-Actually, we are following MVC pattern where * M stands for Model * V stands for view and * C 
-stands for controller Model represents a domain specific data and business logic in MVC architeture.
+Actually, we are following MVC pattern where
+ * M stands for Model 
+ * V stands for view and 
+ * C stands for controller Model represents a domain specific data and business logic in MVC architeture.
 
 So, after creating model folder our folder structure will look like this.
  ![]({{site.baseurl}}/assets/img/model.PNG)
