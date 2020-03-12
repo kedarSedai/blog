@@ -138,4 +138,4 @@ now inorder to get all data that is stored in database we just need to add GET r
 and it looks like this:
 ![]({{site.baseurl}}/assets/img/getalldata.PNG)
 
-we this we just created our simple **CRUD REST API** we the help of MONGODB, EXPRESS.JS AND NODE.JS 😍 
+we this we just created our simple **CRUD REST API** we the help of MONGODB, EXPRESS.JS AND NODE.JS 😍..
