@@ -56,7 +56,9 @@ Sending a response can be acheived by calling the res.send() method. The signatu
 
 Now let us create setup Folder this will be the folder where we keep our secret keys for security purpose. And inside that(setup) folder create keys.js. So after creating this we will get the folder Structure like this:
 ![]({{site.baseurl}}/assets/img/keys.PNG)
+
 And inside keys.js file add this code
+
 ![]({{site.baseurl}}/assets/img/mongoose.PNG)
 This url comes from the MongoDB Atlas you need to have an account in MongoDB.You can create account freely.
 
@@ -87,10 +89,13 @@ Actually, we are following MVC pattern where
  **M**odel represents a domain specific data and business logic in MVC architeture.
 
 So, after creating model folder our folder structure will look like this.
+
 ![]({{site.baseurl}}/assets/img/model.PNG)
+
 so inside _User.js_ add this code
+
 ![]({{site.baseurl}}/assets/img/user.PNG)
-where we are creating a schema we have user with the property of name and description. It depends how you define your schama like if you are making a login application then it may have email, password. Now, we just create our schema with name and description and exporting this model. Name of the model can be anything but I write _user_ you can choose any other name.
+where we are creating a schema we have user with the property of name and description. It depends how you define your schama like if you are making a login application then it may have email, password. Now, we just create our schema with name and description and exporting this model. Name of the model can be anything but I write _user_you can choose any other name.
 
 Now let us create our routes. **Routing** refers to how an application’s endpoints (URIs) respond to client requests. 
 First, let's create routes folder and inside route folder crete userRoutes.js file
@@ -137,6 +142,7 @@ remove(), updateOne() these all are the methods of mongoDB.
 
 now inorder to get all data that is stored in database we just need to add GET route in our routes folder inside userRoutes.js file
 and it looks like this:
+
 ![]({{site.baseurl}}/assets/img/getalldata.PNG)
 
 we this we just created our simple **CRUD REST API** we the help of MONGODB, EXPRESS.JS AND NODE.JS 😍..
