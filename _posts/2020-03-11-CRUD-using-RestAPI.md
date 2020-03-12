@@ -131,7 +131,7 @@ For updating the user
 ![]({{site.baseurl}}/assets/img/update.PNG)
 here, we are updating user's title with the userId.
 
-{% highlight javascript}
+{% highlight javascript %}
 remove(), updateOne() these all are the methods of mongoDB.
 {% endhighlight %}
 
