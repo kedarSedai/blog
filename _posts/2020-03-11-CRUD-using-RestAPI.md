@@ -81,12 +81,61 @@ Now, lets's create our _Schema_. Everything in a mongoose starts with a schema. 
 
 so let's create our model folder and inside model create _User.js file_ which will be our schema.
 Actually, we are following MVC pattern where
- * M stands for Model 
- * V stands for view and 
- * C stands for controller Model represents a domain specific data and business logic in MVC architeture.
+ * M stands for **Model**
+ * V stands for **View** and 
+ * C stands for **Controller** 
+ **M**odel represents a domain specific data and business logic in MVC architeture.
 
 So, after creating model folder our folder structure will look like this.
- ![]({{site.baseurl}}/assets/img/model.PNG)
- so inside _User.js_ add this code
-  ![]({{site.baseurl}}/assets/img/user.PNG)
- where we are creating a schema we have user with the property of name and description. It depends how you define your schama like if you are making a login application then it may have email, password. Now, we just create our schema with name and description and exporting this model. Name of the model can be anything but i write _user_ you can choose any other name.
+![]({{site.baseurl}}/assets/img/model.PNG)
+so inside _User.js_ add this code
+![]({{site.baseurl}}/assets/img/user.PNG)
+where we are creating a schema we have user with the property of name and description. It depends how you define your schama like if you are making a login application then it may have email, password. Now, we just create our schema with name and description and exporting this model. Name of the model can be anything but I write _user_ you can choose any other name.
+
+Now let us create our routes. **Routing** refers to how an application’s endpoints (URIs) respond to client requests. 
+First, let's create routes folder and inside route folder crete userRoutes.js file
+and add this code:
+![]({{site.baseurl}}/assets/img/userRoute.PNG)
+
+Now let's first install bodyParser what bodyParser actually does is parse incoming request bodies in a middleware before your handlers, available under then _req.body_ property.
+
+install bodyParser same as we done before for express and mongoose 
+{% highlight javascript %}
+npm i body-parser
+{% endhighlight %}
+
+and import this dependency in your root application that is (index.js) file
+
+now your code must look like this:
+![]({{site.baseurl}}/assets/img/indexbody.PNG)
+
+Now in our routes folder inside user.js we are importing our schema that we have created inside our model folder and adding our routes in user.js file. So now code will look like this: 
+![]({{site.baseurl}}/assets/img/save.PNG)
+
+we just created our first route with POST method means that the data send to the server with POST is stored in the request body of the HTTP request. _It is one of the most common HTTP methods._
+{% highlight javascript %}
+req.body.title
+{% endhighlight %}
+It comes from the userSchema. we have use _async_ and _await_.They are the extension of the promises. 
+Here, we just create the instance of the document and save in the database. 
+
+Now for deleting the user 
+Deleting the user is trick method we just need to add id . it looks like 
+![]({{site.baseurl}}/assets/img/delete.PNG)
+{% highlight javascript %}
+req.params
+{% endhighlight %}
+is used to define route with route parameters
+
+For updating the user 
+![]({{site.baseurl}}/assets/img/update.PNG)
+here, we are updating user's title with the userId.
+
+{% highlight javascript}
+remove(), updateOne() these all are the methods of mongoDB.
+
+now inorder to get all data that is stored in database we just need to add GET route in our routes folder inside userRoutes.js file
+and it looks like this:
+![]({{site.baseurl}}/assets/img/getalldata.PNG)
+
+we this we just created our simple **CRUD REST API** we the help of MONGODB, EXPRESS.JS AND NODE.JS 😍 
