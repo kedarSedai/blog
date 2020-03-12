@@ -33,9 +33,46 @@ npm i mongoose express
 
 where i stands for install. This add dependency to your _package.json file_ with version number. After installing you can see the **node_modules** appear in your project. Basically, a modules in Node.js is a a simple or complex functionality organized in single or multiple javascript files which can be reused throughout the Node.js application.
 
-Now, create index.js file the file name must be index.js because when while using npm init -y we are given the default configurations.
-
+Now, create index.js file the file name must be index.js because while using npm init -y we are given the default configurations.
 ![]({{site.baseurl}}/assets/img/index.PNG)
+you can see this "main" inside your _package.json file_ 
 
+now inside your index.js file just write below code:
+![]({{site.baseurl}}/assets/img/app.PNG)
 
+Here, _express_ is the framework for Node.Js application and Mongoose provides a straight-forward, schema-based solution to model your application data. We install this two dependency you can see this in your _package.json file_ with version number.
+
+This app starts a server and listens to server with the port number 3000. The app responds with Hello world! for request to the root URL (/) or route. For every other path like(/about),(/home) it will respond with 404 Not found. To run this application you need to type node index.js this will run your application and starts a server at port number 3000. But problem while using node index.js is that everytime when you make some changes in your appplicaion we need to restart the server this may be borring for the developers so we need to install nodemon what is does is it automatically run the server when we save changes in our code we don't need to restart the server it automatically restart the server.
+_so, let's install nodemon first_
+{% highlight javascript %}
+npm i -g nodemon 
+{% endhighlight %}
+And nodemon will be installed globally to your system path.
+{% highlight javascript %}
+res.send();
+{% endhighlight %}
+Sending a response can be acheived by calling the res.send() method. The signature of this method lookes like res.send([body]). Where body can be any of the following: _Buffer_, _String_, _Object_ and an _Array_.
+
+Now let us create setup Folder this will be the folder where we keep our secret keys for security purpose. And inside that(setup) folder create keys.js. So after creating this we will get the folder Structure like this:
+![]({{site.baseurl}}/assets/img/keys.PNG)
+And inside keys.js file add this code
+![]({{site.baseurl}}/assets/img/mongoose.PNG)
+This url comes from the MongoDB Atlas you need to have an account in MongoDB.You can create account freely.
+
+Now add this you your index.js file
+
+{% highlight javascript %}
+//import keys.js file
+const db = require('./setup/keys').mydb_url;
+
+//Establishing connection
+mongoose
+		.connect(db, ({useNewUrlParser:true, useUnifiedTopology: true}))
+        .then(() => console.log('MongoDB connected 🙂' ))
+        .catch(err => console.log(err));
+{% endhighlight %}
+
+now write _nodemon_ in your terminal and you might see MongoDB connected.
+
+Congraz 🙂 you just connected your application to your MongoDB.
 
