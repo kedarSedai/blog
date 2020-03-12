@@ -35,6 +35,7 @@ where i stands for install. This add dependency to your _package.json file_ with
 
 Now, create index.js file the file name must be index.js because while using npm init -y we are given the default configurations.
 ![]({{site.baseurl}}/assets/img/index.PNG)
+
 you can see this "main" inside your _package.json file_ 
 
 now inside your index.js file just write below code:
@@ -67,12 +68,22 @@ const db = require('./setup/keys').mydb_url;
 
 //Establishing connection
 mongoose
-		.connect(db, ({useNewUrlParser:true, useUnifiedTopology: true}))
+        .connect(db, ({useNewUrlParser:true, useUnifiedTopology: true}))
         .then(() => console.log('MongoDB connected 🙂' ))
         .catch(err => console.log(err));
 {% endhighlight %}
 
 now write _nodemon_ in your terminal and you might see MongoDB connected.
 
-Congraz 🙂 you just connected your application to your MongoDB.
+Congraz 🙂 you just connected your application to MongoDB.
+Now, lets's create our _Schema_. Everything in a mongoose starts with a schema. Each schema maps with the mongoDB collection and defines the shape of the documents within that collection.
 
+so let's create our model folder and inside model create _User.js file_ which will be our schema.
+Actually, we are following MVC pattern where * M stands for Model * V stands for view and * C 
+stands for controller Model represents a domain specific data and business logic in MVC architeture.
+
+So, after creating model folder our folder structure will look like this.
+ ![]({{site.baseurl}}/assets/img/model.PNG)
+ so inside _User.js_ add this code
+  ![]({{site.baseurl}}/assets/img/user.PNG)
+ where we are creating a schema we have user with the property of name and description. It depends how you define your schama like if you are making a login application then it may have email, password. Now, we just create our schema with name and description and exporting this model. Name of the model can be anything but i write _user_ you can choose any other name.
