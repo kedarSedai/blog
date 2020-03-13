@@ -1,0 +1,71 @@
+---
+layout: post
+title:  "JQuery"
+image:  '/assets/img/mongodb/database.jpg'
+tags:   MongoDB
+---
+
+**MongoDB** is an open-source document database and leading NoSQL database. This tutorial give you great understanding on MongoDB concepts. 
+
+You need to download and install MongoDB from it;s official site. [MongoDB](https://docs.mongodb.com/manual/tutorial/install-mongodb-enterprise-on-windows/)
+
+**Basic commands on mongo shell** 
+
+show all available database 
+{% highlight mongoDB %}
+show dbs;
+{% endhighlight %}
+
+Select a particular database to access, eg Student. This will create _Employee_ if it does not already exists.
+{% highlight mongoDB %}
+use Employee;
+{% endhighlight %}
+
+Show collection in database
+{% highlight mongoDB %}
+show collections;
+{% endhighlight %}
+
+To check the currently selected database use the command db
+{% highlight mongoDB %}
+db
+{% endhighlight %}
+
+Just type show dbs in your mongo shell and you will see available database 
+![]({{site.baseurl}}/assets/img/mongodb/showdbs.PNG)
+
+now type {% highlight mongoDB %} use Employee; {% endhighlight %} and you will se it switched to database Employee
+![]({{site.baseurl}}/assets/img/mongodb/useemployee.PNG)
+
+Just create user with username, password and roles with following lines of code
+![]({{site.baseurl}}/assets/img/mongodb/createuser.PNG)
+
+Now, we need to create collection. **Collection** may store a number of documents. A collection is analogous to a table of an RDBMS. 
+{% highlight mongoDB %}
+db.createCollection('Employee');
+{% endhighlight %}
+
+Now, let's insert data into collection using MongoDB's query 
+![]({{site.baseurl}}/assets/img/mongodb/insert.PNG)
+
+Inorder to see our data we need to write find() query
+{% highlight mongoDB %}
+db.Employee.find()
+{% endhighlight %}
+
+this output as:
+![]({{site.baseurl}}/assets/img/mongodb/output.PNG)
+
+let's pretify our document using preety() method. This is the method that pretty-prints resulting JSON.
+
+We can use _save_ instead of _insert_ method. like
+{% highlight mongoDB %}
+db.Employee.save({first_name:'Thyame', last_name:'Sedhai'});
+{% endhighlight %}
+The difference with _save_ is that if the passed document contains an _id field, if a document already exists with that _id it will be updated instead of being added as new. 
+
+Here, _insertOne_ is used to insert only one record and _insertMany_ to insert multiple records.
+db.Employee.insertMany([{first_name:'Diple', last_name:'pant', age:23}, {first_name:'Sid', last_name:'Nurse', age:23}]);
+and you can see the output as:
+![]({{site.baseurl}}/assets/img/mongodb/insertmany.PNG)
+
