@@ -50,3 +50,13 @@ a{click me}
 will output as
 
 ![]({{site.baseurl}}/assets/img/vscode/click.PNG)
+
+**Emoji extension**
+
+First, you need to install Emoji Snippets Extension in your VS code. So. after instlling you are able to use Emoji
+Inorder to use emojis you need to type _:_ 
+Inorder to insert emoji in your h1 tag you just simply need to write
+{% highlight Emmet %}
+<h1>name:</h1>
+{% endhighlight %}
+
