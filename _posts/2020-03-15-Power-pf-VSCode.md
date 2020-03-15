@@ -59,4 +59,5 @@ To insert emoji in your h1 tag you just simply need to write
 {% highlight Emmet %}
 <h1>name:</h1>
 {% endhighlight %}
+you will see the suggestion appear 
 
