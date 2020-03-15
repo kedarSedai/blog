@@ -30,7 +30,7 @@ lorem
 {% endhighlight %}
 If you want only 3 word then type _lorem3_ and enter tab
 
-{% highlight Emmet %}
+<!-- {% highlight Emmet %}
 ul.emoji>lorem3.item*4
 {% endhighlight %}
 will output as
@@ -47,7 +47,7 @@ a{click me}
 {% endhighlight %}
 
 will output as
-![]({{site.baseurl}}/assets/img/vscode/clickme.PNG)
+![]({{site.baseurl}}/assets/img/vscode/clickme.PNG) -->
 
 
 
