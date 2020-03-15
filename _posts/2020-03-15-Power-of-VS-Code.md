@@ -11,7 +11,7 @@ Let us talk about **Emmet**
 
 Visual Studio supports Emmet. No any extension is required. Emmet abbrevation are enabled by default in _html_, _pug_, _jsx_, _css_, _scss_, _xml_ files. 
 
-Emmet can be used in _.html_ files like 
+<!-- Emmet can be used in _.html_ files like 
 {% highlight Emmet %}
 h1.head and enter tab
 {% endhighlight %}
@@ -28,7 +28,7 @@ just type lorem and enter tab
 {% highlight Emmet %}
 lorem
 {% endhighlight %}
-If you want only 3 word then type _lorem3_ and enter tab
+If you want only 3 word then type _lorem3_ and enter tab -->
 
 
 
