@@ -40,20 +40,14 @@ will output as:
 div+p+h1
 {% endhighlight %}
 will output as:
-{% highlight Emmet %}
- <div></div>
-   <p></p>
-   <h1></h1>
-{% endhighlight %}
+![]({{site.baseurl}}/assets/img/vscode/div.PNG)
 
 {% highlight Emmet %}
 a{click me}
 {% endhighlight %}
 
 will output as:
-{% highlight Emmet %}
-<a href="">Click me</a>
-{% endhighlight %}
+![]({{site.baseurl}}/assets/img/vscode/clickme.PNG)
 
 
 
