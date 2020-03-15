@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "🔥 Power of VS Code"
+title:  " Power of VS Code"
 image:  '/assets/img/vscode/vs.png'
 tags:   VS code
 ---
@@ -15,7 +15,7 @@ Emmet can be used in _.html_ files like
 {% highlight Emmet %}
 h1.head and enter tab
 {% endhighlight %}
-It will create h1 tag with className head and if you replace _._ with _#_ then you will get _id_. Same goes for all HTML tags like _p_, _table_, _ul_, _li_🤨.
+It will create h1 tag with className head and if you replace _._ with _#_ then you will get _id_. Same goes for all HTML tags like _p_, _table_, _ul_, _li_🤨🔥.
 
 For _ordered list_ and _unorderd list_ 
 {% highlight Emmet %}
