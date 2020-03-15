@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  " Power of VS Code"
+title:  "🔥Power of VS Code"
 image:  '/assets/img/vscode/vscode.png'
 tags:   VS code
 ---
@@ -15,7 +15,7 @@ Emmet can be used in _.html_ files like
 {% highlight Emmet %}
 h1.head and enter tab
 {% endhighlight %}
-It will create h1 tag with className head and if you replace _._ with _#_ then you will get _id_. Same goes for all HTML tags like _p_, _table_, _ul_, _li_🤨🔥.
+It will create h1 tag with className head and if you replace _._ with _#_ then you will get _id_. Same goes for all HTML tags like _p_, _table_, _ul_, _li_🤨.
 
 For _ordered list_ and _unorderd list_ 
 {% highlight Emmet %}
@@ -33,12 +33,14 @@ If you want only 3 word then type _lorem3_ and enter tab -->
 ul.emoji>lorem3.item*4
 {% endhighlight %}
 will output as
+
 ![]({{site.baseurl}}/assets/img/vscode/img.PNG)
 
 {% highlight Emmet %}
 div+p+h1
 {% endhighlight %}
 will output as
+
 ![]({{site.baseurl}}/assets/img/vscode/div.PNG)
 
 {% highlight Emmet %}
@@ -46,4 +48,5 @@ a{click me}
 {% endhighlight %}
 
 will output as
+
 ![]({{site.baseurl}}/assets/img/vscode/click.PNG)
