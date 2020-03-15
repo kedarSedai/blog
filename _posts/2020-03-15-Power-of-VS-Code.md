@@ -13,7 +13,7 @@ Visual Studio supports Emmet. No any extension is required. Emmet abbrevation ar
 
 Emmet can be used in _.html_ files like 
 {% highlight Emmet %}
-h1.head and enter _tab_
+h1.head and enter tab
 {% endhighlight %}
 It will create h1 tag with className head and if you replace _._ with _#_ then you will get _id_. Same goes for all HTML tags like _p_, _table_, _ul_, _li_🤨.
 
