@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Power of VS Code"
+title:  "🔥 Power of VS Code"
 image:  '/assets/img/vscode/vs.png'
 tags:   VS code
 ---
@@ -33,20 +33,20 @@ If you want only 3 word then type _lorem3_ and enter tab
 {% highlight Emmet %}
 ul.emoji>lorem3.item*4
 {% endhighlight %}
-will output as:
+will output as
 ![]({{site.baseurl}}/assets/img/vscode/img.PNG)
 
 {% highlight Emmet %}
 div+p+h1
 {% endhighlight %}
-will output as:
+will output as
 ![]({{site.baseurl}}/assets/img/vscode/div.PNG)
 
 {% highlight Emmet %}
 a{click me}
 {% endhighlight %}
 
-will output as:
+will output as
 ![]({{site.baseurl}}/assets/img/vscode/clickme.PNG)
 
 

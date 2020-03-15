@@ -33,14 +33,6 @@ layout: default
         <p class="article__excerpt">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 130 }}{% endif %}</p>
         <a href="{{ post.url | prepend: site.baseurl }}" class="read-more">Read the rest</a>
       </div>
-      ul.list>lorem4.item>3 
-      <ul class="emoji">
-        <li class="item">Lorem, ipsum dolor.</li>
-        <li class="item">Odit, labore inventore!</li>
-        <li class="item">Nemo, nesciunt doloremque?</li>
-        <li class="item">Perferendis, veniam inventore!</li>
-      </ul>
     </div>
-   
   {% endif %}
 </div>
