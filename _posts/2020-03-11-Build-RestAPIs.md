@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Build CRUD REST API"
+title:  "Build REST APIs"
 image:  '/assets/img/node.jpg'
 tags:   RestAPI NodeJS ExpressJs MongoDB
 ---
