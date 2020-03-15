@@ -21,5 +21,41 @@ For _ordered list_ and _unorderd list_
 {% highlight Emmet %}
 ul>li*3 
 {% endhighlight %}
-It will create unorderlist with 3 list items **you need to enter tab after** _ul>li*3_
+It will create unorderlist with _3_ list items **you need to enter tab after** _ul>li*3_
+
+**lorem ipsum generator**
+just type lorem and enter tab
+{% highlight Emmet %}
+lorem
+{% endhighlight %}
+If you want only 3 word then type _lorem3_ and enter tab
+
+{% highlight Emmet %}
+ul.emoji>lorem3.item*4
+{% endhighlight %}
+will output as:
+![]({{site.baseurl}}/assets/img/vscode/img.PNG)
+
+{% highlight Emmet %}
+div+p+h1
+{% endhighlight %}
+will output as:
+{% highlight Emmet %}
+ <div></div>
+   <p></p>
+   <h1></h1>
+{% endhighlight %}
+
+{% highlight Emmet %}
+a{click me}
+{% endhighlight %}
+
+will output as:
+{% highlight Emmet %}
+<a href="">Click me</a>
+{% endhighlight %}
+
+
+
+
 
