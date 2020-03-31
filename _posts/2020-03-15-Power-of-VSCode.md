@@ -61,3 +61,6 @@ To insert emoji in your h1 tag you just simply need to write
 {% endhighlight %}
 you will see the suggestion appear 
 
+
+
+
