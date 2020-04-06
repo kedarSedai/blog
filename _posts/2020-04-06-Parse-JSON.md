@@ -5,7 +5,7 @@ image:  '/assets/img/jsonimg/json.png'
 tags:   NodeJS, JSON
 ---
 
-`JSON` stands for `JavaScript Object Notation`. `JSON` is syntax for storing and exchanging data. It is a text, written with JavaScript Object Notation. 
+**`JSON`** stands for `JavaScript Object Notation`. `JSON` is syntax for storing and exchanging data. It is a text, written with JavaScript Object Notation. 
 
 `JavaScript` can `parse` `JSON` file  synchronously and asynchronously. The problem with using synchronous is when used in a webServer where all the requests will become blocked while the synchronous file read is running. For, this reason we generally use `async` version of the `fs` function in our code. 
 
@@ -58,7 +58,7 @@ const fs  = require('fs');
 
 After having the concept of reading the `JSON` file here is the complete example of parsing the `JSON` file
 
-{% highlight JSON %}
+{% highlight Javascript %}
 const fs = require('fs');
 
 app.get('/todos', (req, res) => {
@@ -80,7 +80,9 @@ app.get('/todos', (req, res) => {
 
 Using the `data` from reading `todos.json` we create an object now we can access the property from the JSON. `JSON.parse` can throws an exception errors and halt our program if any invalid `JSON` string is passed so, such type of exception are caught in `catch` block. 
 
-`todos.todos.[0].text` returns the property(text) from the first array of objects
-`todos.todos.map(todo => todo.done)` returns the property(done) form all array of objects.
+_`todos.todos.[0].text`_ returns the property(text) from the first array of objects
+_`todos.todos.map(todo => todo.done)`_ returns the property(done) form all array of objects.
+
+So, **JSON** is one of the common and important types of data while working with _Node_. Having the concept of read, write file as well as parsing the JSON file is important. 
 
 
