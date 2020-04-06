@@ -11,7 +11,7 @@ tags:   NodeJS, JSON
 
 Accessing files in the NodeJS is done with the `native module fs` write gives you the functionality of read, write, along with many other tools. Because it is native module we do not need to dowload and install like other module we can simply import it as
 
-{% highlight JSON %}
+{% highlight Javascript%}
 const fs  = require('fs');
 {% endhighlight %}
 
@@ -43,7 +43,7 @@ This is our JSON file 'todos.json'
 
 So, to read the `JSON` file 
 
-{% highlight JSON %}
+{% highlight Javascript %}
 const fs  = require('fs');
     fs.readFile('todos/json', 'utf8', (err, data) => {
         if(err) {
