@@ -145,6 +145,6 @@ and it looks like this:
 
 ![]({{site.baseurl}}/assets/img/getalldata.PNG)
 
-we this we just created our simple **CRUD REST API** we the help of MONGODB, EXPRESS.JS AND NODE.JS 😍..
+with this we just created our simple **CRUD REST API** with the help of MONGODB, EXPRESS.JS AND NODE.JS ..
 
 you can find this code at : [RestApi](https://github.com/kedarSedai/Restapi)
