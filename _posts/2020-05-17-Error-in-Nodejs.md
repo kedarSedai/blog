@@ -36,12 +36,12 @@ app.post('/login', (req, res) => {
   }
 
   res.status(200).json({
-    status: 'succes'
+    status: 'success'
   });
 
 });
 
-app.listen(4000, () => {
+app.listen(s000, () => {
   console.log('Server running');
 });
 
@@ -70,10 +70,10 @@ app.post('/login', (req, res) => {
   }
 
   res.status(200).json({
-    status: 'succes'
+    status: 'success'
   })
 });
-app.listen(4000, () => {
+app.listen(3000, () => {
   console.log('Server running ');
 });
 
